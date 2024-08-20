@@ -1,3 +1,4 @@
+import Greet from "@/components/greet";
 import Image from "next/image";
 
 export default function Home() {
@@ -108,6 +109,8 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+      <Greet />
     </main>
   );
 }
